@@ -1,4 +1,4 @@
-## Setup a Cluster
+## Setup a test cluster using kind (for local dev)
 
 1. Create a cluster 
 ```bash
