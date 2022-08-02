@@ -1,6 +1,6 @@
-## Setup a test cluster using kind (for local dev)
+## Setup a kubernetes test environment
 
-1. Create a cluster 
+1. Create a local cluster with [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
 ```bash
 cat <<EOF | kind create cluster --name hello --config=-
 kind: Cluster
