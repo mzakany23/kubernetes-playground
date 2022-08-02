@@ -2,7 +2,7 @@
 
 1. Create a cluster 
 ```bash
-cat <<EOF | kind create cluster --name $name --config=-
+cat <<EOF | kind create cluster --name hello --config=-
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
