@@ -15,3 +15,10 @@ spec:
             name: hello
             port: 
               number: 80
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: linkerd
+            port: 
+              number: 8084
