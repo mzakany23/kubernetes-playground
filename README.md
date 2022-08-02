@@ -1,5 +1,7 @@
 
-## Create Kind Cluster
+## Setup a Cluster
+
+**Create Cluster**
 
 ```bash
 cat <<EOF | kind create cluster --name $name --config=-
@@ -21,4 +23,10 @@ nodes:
     hostPort: 443
     protocol: TCP
 EOF
+```
+
+**Create Ingress**
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 ```
