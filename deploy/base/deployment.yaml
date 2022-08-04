@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: paulbouwer/hello-kubernetes:1.10
+        image: localhost:5001/hello-server:latest
         resources:
           limits:
             memory: "128Mi"
