@@ -1,6 +1,6 @@
 # Kubernetes Playground
 
-The Goal is to be able to spin up a local kubernetes dev environment to test one off projects.
+Spin up a local kubernetes dev environment to test one off r&d projects.
 
 ## Tecnologies
 - [local development with kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
