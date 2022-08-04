@@ -39,6 +39,11 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 kb apply -k ./deploy/test
 ```
 
+4. Curl the test app using kind's portmapping and ingress
+```bash
+curl localhost
+```
+
 ## Light weight service mesh with linkderd
 
 1. Add a service mesh (linkerd)
